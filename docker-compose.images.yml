@@ -1,0 +1,7 @@
+version: '3'
+services:
+  webui:
+    build:
+      context: ./webui
+      dockerfile: Dockerfile
+    image: ajmosley345/468-project:webui
